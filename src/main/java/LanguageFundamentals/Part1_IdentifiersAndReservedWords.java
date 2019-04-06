@@ -39,9 +39,29 @@ public class Part1_IdentifiersAndReservedWords {
 		System.out.println(123_);
 	}
 	*/
+	public void rule3() {
+		int number = 10;
+		int Number = 11;
+		System.out.println(number);
+		System.out.println(Number);
+	}
+	
+	public void rule4() {
+		int aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaatozzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz = 10;
+		long ATOZzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz = 10L;
+		float $$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$ = 10.5f;
+		char __________________________________________________________________________________________________________________________________ = 'A';
+		System.out.println(aaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaaatozzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz);
+		System.out.println(ATOZzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzzz);
+		System.out.println($$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$$);
+		System.out.println(__________________________________________________________________________________________________________________________________);
+	}
+	
+	
 	public static void main(String[] args) {
 		Part1_IdentifiersAndReservedWords rules = new Part1_IdentifiersAndReservedWords();
 		rules.rule1();
+		rules.rule3();
 		
 	}
 
