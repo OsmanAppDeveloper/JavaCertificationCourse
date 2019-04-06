@@ -1,6 +1,6 @@
 package languagefundamentals;
 
-public class Part1_IdentifiersAndReservedWords {
+public class Part1_Identifiers {
 
 	// What is a Identifier in Java :- Any name which is used to identify a
 	// datatype, method name, class name etc is called Identifier in Java.
@@ -57,11 +57,29 @@ public class Part1_IdentifiersAndReservedWords {
 		System.out.println(__________________________________________________________________________________________________________________________________);
 	}
 	
+	/*public void rule5() {
+		int if = 10;
+		long else = 11L;
+		double for = 10f;
+	}
+	*/
+	
+	public void rule6() {
+		int String = 10;
+		long Runnable = 10L;
+		float Integer = 10.5f;
+		System.out.println(String);
+		System.out.println(Runnable);
+		System.out.println(Integer);
+	}
+	
 	
 	public static void main(String[] args) {
-		Part1_IdentifiersAndReservedWords rules = new Part1_IdentifiersAndReservedWords();
+		Part1_Identifiers rules = new Part1_Identifiers();
 		rules.rule1();
 		rules.rule3();
+		rules.rule4();
+		rules.rule6();
 		
 	}
 
