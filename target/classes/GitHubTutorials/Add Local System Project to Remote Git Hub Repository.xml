@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <contexts>
-   <context id="Add Local System Project to Remote Git Hub Repository">
+   <context id="Add Local System Project to Remote Git Hub Repository" title="Git Hub Cheat Sheet">
       <description>In order for us to push our local system project in to Github Repository we have to follow the below steps in sequencial order</description>
       <command label="1) Initialize the local directory as a Git repository." serialization="git init"/>
       <command label="2) Add the files in your new local repository. This stages them for the first commit." serialization="git add ."/>
