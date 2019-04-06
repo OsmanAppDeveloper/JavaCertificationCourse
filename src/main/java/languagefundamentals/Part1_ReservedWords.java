@@ -28,6 +28,11 @@ public class Part1_ReservedWords {
 	// Object related keywords(4) :- new, instanceof, super, this
 	// void return type keyword(1) :- In java return type is mandatory, if a method
 	// won't return anything then we have to declare that method with void return
-	// type where as in C language return type is optional and default return type is int.
+	// type where as in C language return type is optional and default return type
+	// is int.
+	// Unused Keywords(2) :- goto and const , usage of goto created several problems
+	// in old languagues and hence sun folks banned this keyword in Java now coming
+	// to const keyword, use final instead of const. goto and const are unused keywords and if we are trying to use we will get compile error.
+	// enum keyword(1):- we can use enum to define a group of named constants
 
 }
