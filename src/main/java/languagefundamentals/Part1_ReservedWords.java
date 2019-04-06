@@ -13,6 +13,21 @@ public class Part1_ReservedWords {
 	// logical sense then it is keyword.
 	// Reserved Literals(3) :- If a reserved word is associated to value then it is
 	// Reserved Literals are True, false and null
-	// again keywords(50) can be divided into two categories used keywords(48) and unused keywords(2)
+	// again keywords(50) can be divided into two categories used keywords(48) and
+	// unused keywords(2)
 	// unused keywords are goto and const.
+	// Data types keywords(8) :- byte, short, int, long, float, double, boolean,
+	// char.
+	// Flow control keywords(11) :- if, else, switch, case, default, break,
+	// continue, do ,while, for , return.
+	// Modifiers Keywords(11) :- public, private, protected, static, final,
+	// abstract, synchronized, native, strictfp ,transient, volatile.
+	// Exception Handling Keywords(6) :- try, catch, throw , throws, finally ,assert
+	// Class related Keywords(6) :- class, interface, extends, implements, package,
+	// import
+	// Object related keywords(4) :- new, instanceof, super, this
+	// void return type keyword(1) :- In java return type is mandatory, if a method
+	// won't return anything then we have to declare that method with void return
+	// type where as in C language return type is optional and default return type is int.
+
 }
