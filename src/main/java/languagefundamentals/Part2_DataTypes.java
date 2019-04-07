@@ -9,6 +9,10 @@ package languagefundamentals;
 // Integral Types :- byte , short , int , long.
 // floating Type :- double, long.
 // Non Numeric :- Char, boolean.
+// Except boolean and char all other data types are signed Data Types.
+// Byte :- Size : 1 byte(8 bits), max_value = +127, min_value = -128, range = -128 to 127; 
 public class Part2_DataTypes {
 
+
+	
 }
