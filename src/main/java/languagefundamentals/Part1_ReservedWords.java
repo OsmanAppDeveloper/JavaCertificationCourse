@@ -3,7 +3,7 @@ package languagefundamentals;
 public class Part1_ReservedWords {
 
 	// What is a Reserved Words in Java :- There are some specific words which are
-	// used to represent some meaning or functionality in java such types
+	// used to represent some meaning or functionality in java such type
 	// of words are called reserved words.
 	// Totally there are 53 reserved words are in Java
 	// Broadly we can classify reserved words in 2 categories, keywords and Reserved
@@ -33,6 +33,6 @@ public class Part1_ReservedWords {
 	// Unused Keywords(2) :- goto and const , usage of goto created several problems
 	// in old languagues and hence sun folks banned this keyword in Java now coming
 	// to const keyword, use final instead of const. goto and const are unused keywords and if we are trying to use we will get compile error.
-	// enum keyword(1):- we can use enum to define a group of named constants
+	// enum keyword(1):- we can use enum to define a group of named constants.
 
 }
