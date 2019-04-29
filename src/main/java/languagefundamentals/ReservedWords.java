@@ -1,6 +1,6 @@
 package languagefundamentals;
 
-public class Part1_ReservedWords {
+public class ReservedWords {
 
 	// What is a Reserved Words in Java :- There are some specific words which are
 	// used to represent some meaning or functionality in java such type

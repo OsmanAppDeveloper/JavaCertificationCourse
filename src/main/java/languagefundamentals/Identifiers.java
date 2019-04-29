@@ -1,6 +1,6 @@
 package languagefundamentals;
 
-public class Part1_Identifiers {
+public class Identifiers {
 
 	// What is a Identifier in Java :- Any name which is used to identify a
 	// datatype, method name, class name etc is called Identifier in Java.
@@ -75,7 +75,7 @@ public class Part1_Identifiers {
 	
 	
 	public static void main(String[] args) {
-		Part1_Identifiers rules = new Part1_Identifiers();
+		Identifiers rules = new Identifiers();
 		rules.rule1();
 		rules.rule3();
 		rules.rule4();
